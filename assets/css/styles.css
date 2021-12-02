@@ -2,3 +2,21 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1.6;
 }
+
+.about-me {
+  margin: 20px 0;
+}
+
+.card-container {
+  text-align: center !important;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 460px !important;
+  height: 460px !important;
+}
