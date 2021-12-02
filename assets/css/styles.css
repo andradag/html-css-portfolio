@@ -11,12 +11,33 @@ body {
   text-align: center !important;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .profile-img {
   width: 460px !important;
   height: 460px !important;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap !important;
+}
+
+.project-card {
+  width: 24rem;
+}
+
+#projects h2 {
+  text-align: center;
 }
