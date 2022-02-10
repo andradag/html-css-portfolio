@@ -23,7 +23,7 @@ body {
 }
 
 .profile-img {
-  width: 460px !important;
+  width: auto;
   height: 460px !important;
 }
 
