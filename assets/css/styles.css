@@ -8,10 +8,21 @@ body {
 }
 
 .card-container {
-  background-color: lightblue;
+  background-image: url("/assets/images/background-image.jpeg");
   text-align: center !important;
 }
 
+.card-content {
+  background-color: lightblue;
+}
+
+.card-footer {
+  background-color: lightblue;
+  color: azure;
+  text-shadow: 2px 2px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
 .project-card {
   display: flex;
   flex-direction: column;
