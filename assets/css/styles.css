@@ -8,7 +8,6 @@ body {
 }
 
 .card-container {
-  background-image: url("/assets/images/background-image.jpeg");
   text-align: center !important;
 }
 
@@ -22,14 +21,23 @@ body {
   text-shadow: 2px 2px;
   letter-spacing: 5px;
   text-transform: uppercase;
+  flex-wrap: wrap;
 }
+
+.card-content {
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
 }
 
 .image-container {
-  background-image: url("/assets/images/background-image.jpeg");
+  background-image: url("../images/background-image.jpeg");
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -58,4 +66,9 @@ body {
   text-shadow: 2px 2px;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+@media (min-width: @screen-sm-min) {
+  margin-left: (@gutter / -2);
+  margin-right: (@gutter / -2);
 }
