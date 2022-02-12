@@ -24,15 +24,15 @@ You can view the GitHub pages deployed application [here](https://andradag.githu
 
 ## Screenshots
 
-Desktop version
+Desktop version `About Me'
 
 <img src="assets/images/screenshot-1.png"/>
 
-Desktop version
+Desktop version 'Projects'
 
 <img src="assets/images/screenshot-2.png"/>
 
-Mobile version
+Desktop version 'CV'
 
 <img src="assets/images/screenshot-3.png"/>
 
