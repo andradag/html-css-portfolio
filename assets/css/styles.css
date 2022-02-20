@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.6;
+}
+
+.about-me {
+  margin: 20px 0;
+}
+
+.card-container {
+  text-align: center !important;
+}
+
+.card-content {
+  background-color: lightblue;
+}
+
+.card-footer {
+  background-color: lightblue;
+  color: azure;
+  text-shadow: 2px 2px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+
+.card-content {
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  background-image: url("../images/background-image.jpeg");
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: auto;
+  height: 460px !important;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap !important;
+}
+
+.project-card {
+  width: 24rem;
+}
+
+#projects h2 {
+  margin: 10px;
+  text-align: center;
+  color: azure;
+  text-shadow: 2px 2px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+@media (min-width: @screen-sm-min) {
+  margin-left: (@gutter / -2);
+  margin-right: (@gutter / -2);
+}

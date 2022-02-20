@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Andrada - Portfolio</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("./assets/images/background-image.jpeg");
+      }
+    </style>
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://www.linkedin.com/in/andrada-gacichevici-2801a51a5/"
+            >Andrada Gacichevici</a
+          >
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#about-me"
+              >About Me</a
+            >
+            <a class="navbar-item" href="#projects">Projects</a>
+            <a class="navbar-item" href="./assets/images/cv.png" target="_blank"
+              >CV</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About me section -->
+      <section id="about-me" class="about-me">
+        <div class="card card-container">
+          <div class="card-image image-container">
+            <img
+              src="./assets/images/profile.jpg"
+              alt="Andrada Gacichevici"
+              class="profile-img"
+            />
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Andrada Gacichevici</p>
+                <p class="subtitle is-6">
+                  Software Engineer | Notary Public | Artist Manager
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              Andrada Gacichevici is a software engineer with a legal
+              background. She is an active director of ACG Heritage
+              Entertainment, having experience in hosting art events across
+              Europe for overseas artists. Her studies in intellectual property,
+              business strategy and music inform her mindful but competitive
+              approach.
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="tel:+447506379178" class="card-footer-item">Mobile</a>
+            <a
+              href="mailto:enquiries@acgheritage.co.uk"
+              class="card-footer-item"
+              >Email</a
+            >
+            <a href="https://github.com/andradag" class="card-footer-item"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/andrada-gacichevici-2801a51a5/"
+              class="card-footer-item"
+              >LinkedIn</a
+            >
+          </footer>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section id="projects">
+        <h2 class="title">Projects</h2>
+        <hr />
+        <div class="projects-container">
+          <div class="card m-3 project-card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="./assets/images/readme-generator.png"
+                  alt="Project 1"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">ReadMe Generator CLI</p>
+                  <p class="subtitle is-6">Inquirer CLI</p>
+                </div>
+              </div>
+
+              <div class="content">
+                A command-line application that dynamically generates a
+                professional README.md file from a user’s input using the
+                Inquirer package.
+              </div>
+
+              <footer class="card-footer">
+                <a
+                  href="https://github.com/andradag/readme-generator-cli/"
+                  class="card-footer-item"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+                <a
+                  href="https://andradag.github.io/readme-generator-cli/"
+                  class="card-footer-item"
+                  target="_blank"
+                  >Site</a
+                >
+              </footer>
+            </div>
+          </div>
+
+          <div class="card m-3 project-card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="./assets/images/wather-dashboard.png"
+                  alt="Project 2"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Weather Dashboard</p>
+                  <p class="subtitle is-6">HTML | CSS | Java Script</p>
+                </div>
+              </div>
+
+              <div class="content">
+                A weather dashboard that runs in the browser and feature
+                dynamically updated HTML and CSS.
+              </div>
+
+              <footer class="card-footer">
+                <a
+                  href="https://github.com/andradag/weather-dashboard"
+                  class="card-footer-item"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+                <a
+                  href="https://andradag.github.io/weather-dashboard/"
+                  class="card-footer-item"
+                  target="_blank"
+                  >Site</a
+                >
+              </footer>
+            </div>
+          </div>
+
+          <div class="card m-3 project-card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./assets/images/game-quiz.png" alt="Project 3" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Game Quiz</p>
+                  <p class="subtitle is-6">HTML | CSS | JavaScript</p>
+                </div>
+              </div>
+
+              <div class="content">
+                Timed coding quiz with multiple-choice questions. This app runs
+                in the browser and features dynamically updated HTML and CSS
+                powered by JavaScript code. A user clicks through an interactive
+                coding quiz, then enters initials to save the high score before
+                resetting and starting over.
+              </div>
+
+              <footer class="card-footer">
+                <a
+                  href="https://github.com/andradag/game-quiz/"
+                  class="card-footer-item"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+                <a
+                  href="https://andradag.github.io/game-quiz/"
+                  class="card-footer-item"
+                  target="_blank"
+                  >Site</a
+                >
+              </footer>
+            </div>
+          </div>
+
+   
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>© 2022 all rights reserved</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
