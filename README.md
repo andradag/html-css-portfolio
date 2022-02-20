@@ -34,7 +34,7 @@ Desktop version 'Projects'
 
 Desktop version 'CV'
 
-<img src="assets/images/screenshot-3.png"/>
+<img src="assets/images/cv.png"/>
 
 Mobile version
 
